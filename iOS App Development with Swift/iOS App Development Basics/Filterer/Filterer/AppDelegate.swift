@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Filterer
 //
-//  Created by Gianluca Tomasino on 11/08/16.
-//  Copyright © 2016 Gianluca Tomasino. All rights reserved.
+//  Created by Jack on 2015-09-22.
+//  Copyright © 2015 UofT. All rights reserved.
 //
 
 import UIKit

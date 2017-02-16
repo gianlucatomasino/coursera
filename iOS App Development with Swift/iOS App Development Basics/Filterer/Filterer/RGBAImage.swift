@@ -84,7 +84,7 @@ public struct RGBAImage {
         }
         let imageContext = CGBitmapContextCreateWithData(imageDataReference, width, height, 8, bytesPerRow, colorSpace, bitmapInfo, nil, nil)
         
-        guard let cgImage = CGBitmapContextCreateImage(imageContext) else {return nil}
+        guard let cgImage = CGBitmapContextCreateImage(imageContext!) else {return nil}
         let image = UIImage(CGImage: cgImage)
         
         return image
